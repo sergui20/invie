@@ -1,0 +1,15 @@
+body{
+  background: skyblue;
+
+}
+.contenedor{
+  margin: 0 auto;
+  width: 600px;
+  font-family: sans-serif;
+}
+
+.caja{
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+}

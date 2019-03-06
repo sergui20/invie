@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Precios de tus mejores guitarras</title>
+	<meta charset="utf-8">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Allerta' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="public/src/invie.css">
+</head>
+<body>
+	<section id="portada" class="portada">
+	<header class=" header contenedor">
+		<figure class="logotipo">
+			<img src="public/images/invie.png" width="186" height="60" alt="Invie Logotipo">
+		</figure>
+		<nav class="menu">
+			<ul>
+				<li><a href="invie.html">Home</a></li>
+				<li><a href="invie.html#guitarras">Guitarras</a></li>
+				<li><a href="#precios.html">Precios</a></li>
+			</ul>
+		</nav>
+	</header>
+	</section>
+	<section class="tabla">
+		<div class="contenedor">
+			<table>
+				<thead>
+					<tr>
+						<th>Modelo</th>
+						<th>Precio</th>
+						<th>Descripción</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="firstcol">Invie Classic</td>
+						<td>$100</td>
+						<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</td>
+					</tr>
+					<tr>
+						<td class="firstcol">Invie Classic</td>
+						<td>$500</td>
+						<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</td>
+					</tr>
+					<tr>
+						<td class="firstcol">Invie Custom</td>
+						<td>$1000</td>
+						<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</section>
+	<footer>
+		<div class="informacion">
+			<figure class="logoFooter">
+				<img src="public/images/invie-white.png" alt="Logo Invie Footer">
+			</figure>
+			<div class="info">
+				<div class="tel">
+				<a><strong>Telefono:</strong><span>2-851267</span></a>
+				</div>
+				<div class="mail">
+				<a><strong>E-mail:</strong><span>contacto@invie.com</span></a>
+				</div>
+			</div>
+		</div>
+		<div class="formulario">
+			<div class="contacto">
+				<h4>Contacto:</h4>
+				<label for="nombre" class="labelblock">Nombre:</label>
+				<input type="text" required id="nombre" name="nombre" class="inputtext">
+				<label for="email" class="labelblock">E-mail:</label>
+				<input type="email" required id="email" name="email" class="inputtext">
+				<div class="sexo">
+					<label for="mujer">
+						<input type="radio" id="mujer" name="sexo" value="Mujer">Mujer
+					</label>
+					<label for="hombre">
+						<input type="radio" id="hombre" name="sexo" value="Hombre">Hombre
+					</label>
+				</div>
+				<div class="intereses">
+					<div class="col1">
+						<label for="cotizacion">
+							<input type="checkbox" name="intereses" id="cotizacion" value="cotizacion">Cotización
+						</label>
+						<label id="reclamos">
+							<input type="checkbox" name="intereses" id="reclamos" value="reclamos">Reclamos
+						</label>
+					</div>
+					<div class="col2">
+						<label for="comentarios">
+							<input type="checkbox" name="intereses" id="comentarios" value="comentarios">Comentarios
+						</label>
+						<label for="otros" class="otros">
+							<input type="checkbox" name="intereses" id="otros" value="otros">Otros
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="mensaje">
+				<label for="comentarios" class="mensaje">Mensaje:</label>
+				<textarea name="comentarios" cols="30" rows="5" id="comentarios" class="textarea"></textarea>
+				<input type="submit" value="Enviar" class="submit button">
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

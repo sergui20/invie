@@ -1,0 +1,261 @@
+body {
+	font-family: 'Allerta', sans-serif;
+	margin: 0;
+}
+
+.header {
+	position: relative;
+}
+
+.logotipo {
+	display: inline-block;
+}
+
+.menu {
+	font-size: 24px;
+	display: inline-block;
+	position: absolute;
+	right:0;
+}
+
+.menu li {
+	display: inline-block;
+	margin-left: 30px;
+	font-weight: bold;
+	color: black;
+}
+
+.menu a {
+	text-decoration: none;
+	padding: 8px;
+	color: white;
+}
+
+.menu a:hover {
+	background: linear-gradient(to left, #FE344E, #FF7250);
+	border-radius: 22px;
+}
+
+.button {
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  background: linear-gradient(to left, #FE344E, #FF7250);
+  color: white;
+  padding: 7px;
+  margin-bottom: 70px;
+}
+
+.contenedor button {
+	padding: 7px 12px;
+	border-radius: 12px;
+	font-size: 18px;
+}
+
+.portada {
+	background-image: url('../images/background.png');
+	background-size: cover;
+	color: white;
+	padding: 20px;
+}
+
+.titulo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
+  margin-bottom: 0;
+  margin-top: 70px;
+}
+
+.titulo span {
+	text-decoration: underline;
+}
+
+.subtitulo {
+	font-size: 24px;
+  	margin-top: 5px;
+}
+
+.contenedor {
+	width: 800px;
+	margin: auto;
+}
+
+.guitarra {
+	margin: 20px auto;
+	padding: 10px;
+	border: 2px solid #1F313C;
+	border-radius: 8px;
+}
+
+.guitarras {
+  color: #1F313C;
+}
+
+.guitarras h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+}
+
+.title-b {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.art1 {
+	height: 250px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row-reverse;
+}
+
+.art2 {
+	height: 220px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.detalle1, .detalle2 {
+	position: relative;
+	top: -20px;
+}
+
+.imgDerecha {
+	position: relative;
+	top: -40px;
+}
+
+.imgIzquierda {
+	position: relative;
+	top: 20px;
+}
+
+footer {
+	padding: 10px 10px 20px 10px;
+	color: white;
+	background-color: #273B47;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+footer img {
+	margin-bottom: 25px;
+}
+
+.logoFooter {
+	text-align: center;
+}
+
+.inputtext {
+	margin: 0 15px;
+	width: 100%;
+	outline: 0;
+}
+
+.textarea {
+	outline: 0;
+	resize: none;
+}
+
+.inputtext:focus, .textarea:focus {
+	background: #F8F9F9;
+}
+
+.mensaje, .labelblock {
+	display: block;
+	line-height: 2;
+	font-weight: normal;
+}
+
+.labelblock {
+	margin-left: 15px;
+}
+
+div.contacto {
+	width: 230px;
+	margin-right: 100px;
+}
+
+div.formulario {
+	display: flex;
+	align-items: center;
+}
+
+div.mensaje {
+	display: flex;
+	position: relative;
+	top: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+h4 {
+	font-size: 1.3em;
+	margin-left: 15px;
+}
+
+.submit {
+	margin: 10px 0;
+}
+
+.informacion strong {
+	display: block;
+	line-height: 2;
+}
+
+.informacion a {
+	color: white;
+	text-decoration: none;
+}
+
+.sexo {
+	margin: 20px 0 0 15px;
+}
+
+.intereses {
+	width: 100%;
+	margin: 10px auto auto 15px;
+	line-height: 1.6;
+}
+
+.col1, .col2 {
+	display: flex;
+    justify-content: space-between;
+}
+
+.otros {
+	margin-right: 34px;
+}
+
+.info {
+	display: flex;
+	justify-content: space-around;
+	line-height: 2;
+}
+
+table {
+	width: 100%;
+	margin: 50px 0;
+}
+
+th {
+	background: #273B47;
+	color: white;
+	padding: 10px 30px;
+	text-align: left;
+}
+
+td {
+	padding: 20px;
+}
+
+table, th, td {
+	border: 1px solid #273B47;
+	border-collapse: collapse;
+}
+
+.firstcol {
+	width: 110px;
+}
